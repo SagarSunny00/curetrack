@@ -382,7 +382,7 @@ export default function Patients() {
                   <p className="text-3xl font-bold mt-1">{patientsData.length}</p>
                 </div>
                 <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center">
-                  <Users className="h-6 w-6 text-primary" />
+                  <User className="h-6 w-6 text-primary" />
                 </div>
               </div>
             </CardContent>
@@ -437,5 +437,5 @@ export default function Patients() {
   );
 }
 
-// Missing icon import
+// Fixed icon import
 import { Activity, User } from 'lucide-react';
